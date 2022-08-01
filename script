@@ -13,7 +13,7 @@ local ProgressSection = GeneralTab:CreateSection({
     Name = "Progression"
 })
 ProgressSection:AddButton({ --AddButton, AddToggle, AddDropdown etc
-    Name = "The buttons name",
+    Name = "Simple Spy",
     Flag = "Anything",
     Callback = function(x)
         local cache = {}
