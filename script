@@ -1,0 +1,22 @@
+local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+
+local Scythe = library:CreateWindow({
+    Name = "GUI Name",
+    Themeable = {
+        Info = "fuck off",
+    }
+})
+local GeneralTab = Scythe:CreateTab({
+    Name = "General"
+})
+local ProgressSection = GeneralTab:CreateSection({
+    Name = "Progression"
+})
+ProgressSection:AddButton({ --AddButton, AddToggle, AddDropdown etc
+    Name = "The buttons name",
+    Flag = "Anything",
+    Callback = function(x)
+        local cache = {}
+
+Script Here        
+})
