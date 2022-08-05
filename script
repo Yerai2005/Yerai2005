@@ -24,4 +24,4 @@ while _G.StrengthEvent == true do
 wait()
 end
 end)        
-})
+end})
